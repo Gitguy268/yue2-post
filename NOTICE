@@ -1,0 +1,16 @@
+yue2-post
+Copyright (c) 2026 Lucas Van De Weerd
+Licensed under the MIT License (see LICENSE), except the files listed below.
+
+Apache License 2.0 files
+------------------------
+scripts/yue2_lora.py and scripts/yue2_clear_lyrics.py (SPDX-License-Identifier: Apache-2.0),
+see LICENSES/Apache-2.0.txt. The KTO recipe in scripts/train_kto.py follows
+stevensu/YuE2-3B-instrumental-kto-lora (Apache-2.0 code, CC BY-NC 4.0 weights).
+
+Not included (downloaded by the user)
+-------------------------------------
+- m-a-p/YuE2-3B and m-a-p/YuE2-Vae weights: CC BY-NC 4.0. Outputs and adapters made with them
+  are for non-commercial use.
+- yue2-infer 0.1.5 wheel from the m-a-p/YuE2-3B repository (see its LICENSE and THIRD_PARTY_NOTICES.md).
+- Demucs (MIT), Whisper large-v3-turbo (MIT) via mlx-whisper (MIT), jiwer (Apache-2.0).

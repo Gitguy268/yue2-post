@@ -1,0 +1,13 @@
+.venv/
+.venv-*/
+__pycache__/
+data/
+eval/
+models/
+runs/
+*.whl
+*.safetensors
+*.flac
+*.wav
+.DS_Store
+._*
